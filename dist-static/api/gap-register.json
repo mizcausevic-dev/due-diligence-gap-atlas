@@ -1,0 +1,62 @@
+[
+  {
+    "lane": "AI governance and agent readiness",
+    "packetName": "AI governance readiness pack",
+    "action": "REFRESH",
+    "owner": "Chief AI Officer",
+    "audience": "Board risk committee",
+    "requestedAssertion": "Agent governance, rollout, and exception control evidence is board-ready.",
+    "coverageScore": 70,
+    "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the packet catches up."
+  },
+  {
+    "lane": "Identity and access evidence",
+    "packetName": "Identity assurance packet",
+    "action": "CLOSE",
+    "owner": "Chief Information Security Officer",
+    "audience": "Audit committee",
+    "requestedAssertion": "Identity reviews, guest access, and mobile protection controls are audit-ready.",
+    "coverageScore": 84,
+    "nextMove": "Refresh the guest-access export and mark the packet ready for external reuse."
+  },
+  {
+    "lane": "Revenue systems and reporting",
+    "packetName": "Revenue control packet",
+    "action": "ESCALATE",
+    "owner": "Chief Revenue Officer",
+    "audience": "Board finance committee",
+    "requestedAssertion": "Reporting, attribution, and release controls are connected enough for diligence.",
+    "coverageScore": 61,
+    "nextMove": "Escalate one owner to assemble the release-to-reporting proof chain."
+  },
+  {
+    "lane": "Procurement and trust center",
+    "packetName": "Procurement trust packet",
+    "action": "CLOSE",
+    "owner": "Chief Commercial Officer",
+    "audience": "Board growth committee",
+    "requestedAssertion": "Security questionnaire, trust-center, and proof reuse are buyer-ready.",
+    "coverageScore": 88,
+    "nextMove": "Publish the proof-coverage index and lock this packet as the reference lane."
+  },
+  {
+    "lane": "FinTech transaction controls",
+    "packetName": "FinTech control-family packet",
+    "action": "DEFER",
+    "owner": "Chief Financial Officer",
+    "audience": "Investment committee",
+    "requestedAssertion": "Payments, KYC, treasury, and merchant review already form one diligence-grade control plane.",
+    "coverageScore": 56,
+    "nextMove": "Defer the integrated assertion until one linked proof packet exists."
+  },
+  {
+    "lane": "Biotech and diagnostics",
+    "packetName": "Regulated controls packet",
+    "action": "REFRESH",
+    "owner": "Quality systems lead",
+    "audience": "Board compliance committee",
+    "requestedAssertion": "GxP, specimen, CAPA, safety, and narrative review already form a reusable regulated diligence packet.",
+    "coverageScore": 67,
+    "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+  }
+]

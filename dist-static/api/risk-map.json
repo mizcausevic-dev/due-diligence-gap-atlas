@@ -1,0 +1,74 @@
+[
+  {
+    "lane": "AI governance and agent readiness",
+    "track": "AI_GOVERNANCE",
+    "compositeGapRiskScore": 37.2,
+    "valueAtStakeMillions": 32,
+    "requestCriticalityScore": 82,
+    "companyTags": [
+      "OpenAI",
+      "Anthropic",
+      "Microsoft"
+    ]
+  },
+  {
+    "lane": "Identity and access evidence",
+    "track": "IDENTITY",
+    "compositeGapRiskScore": 23,
+    "valueAtStakeMillions": 16,
+    "requestCriticalityScore": 68,
+    "companyTags": [
+      "Microsoft",
+      "Entra",
+      "Okta"
+    ]
+  },
+  {
+    "lane": "Revenue systems and reporting",
+    "track": "REVENUE_SYSTEMS",
+    "compositeGapRiskScore": 43.6,
+    "valueAtStakeMillions": 28,
+    "requestCriticalityScore": 78,
+    "companyTags": [
+      "Power BI",
+      "Tableau",
+      "VWO"
+    ]
+  },
+  {
+    "lane": "Procurement and trust center",
+    "track": "PROCUREMENT",
+    "compositeGapRiskScore": 20,
+    "valueAtStakeMillions": 14,
+    "requestCriticalityScore": 62,
+    "companyTags": [
+      "Vanta",
+      "Drata",
+      "Google"
+    ]
+  },
+  {
+    "lane": "FinTech transaction controls",
+    "track": "FINTECH",
+    "compositeGapRiskScore": 45,
+    "valueAtStakeMillions": 35,
+    "requestCriticalityScore": 80,
+    "companyTags": [
+      "Stripe",
+      "Adyen",
+      "Plaid"
+    ]
+  },
+  {
+    "lane": "Biotech and diagnostics",
+    "track": "BIOTECH",
+    "compositeGapRiskScore": 39.6,
+    "valueAtStakeMillions": 29,
+    "requestCriticalityScore": 76,
+    "companyTags": [
+      "Veeva",
+      "LabVantage",
+      "Thermo Fisher"
+    ]
+  }
+]

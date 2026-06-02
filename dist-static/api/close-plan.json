@@ -1,0 +1,50 @@
+[
+  {
+    "lane": "AI governance and agent readiness",
+    "action": "REFRESH",
+    "blockerCount": 1,
+    "compositeGapRiskScore": 37.2,
+    "owner": "Chief AI Officer",
+    "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the packet catches up."
+  },
+  {
+    "lane": "Identity and access evidence",
+    "action": "CLOSE",
+    "blockerCount": 0,
+    "compositeGapRiskScore": 23,
+    "owner": "Chief Information Security Officer",
+    "nextMove": "Refresh the guest-access export and mark the packet ready for external reuse."
+  },
+  {
+    "lane": "Revenue systems and reporting",
+    "action": "ESCALATE",
+    "blockerCount": 2,
+    "compositeGapRiskScore": 43.6,
+    "owner": "Chief Revenue Officer",
+    "nextMove": "Escalate one owner to assemble the release-to-reporting proof chain."
+  },
+  {
+    "lane": "Procurement and trust center",
+    "action": "CLOSE",
+    "blockerCount": 0,
+    "compositeGapRiskScore": 20,
+    "owner": "Chief Commercial Officer",
+    "nextMove": "Publish the proof-coverage index and lock this packet as the reference lane."
+  },
+  {
+    "lane": "FinTech transaction controls",
+    "action": "DEFER",
+    "blockerCount": 2,
+    "compositeGapRiskScore": 45,
+    "owner": "Chief Financial Officer",
+    "nextMove": "Defer the integrated assertion until one linked proof packet exists."
+  },
+  {
+    "lane": "Biotech and diagnostics",
+    "action": "REFRESH",
+    "blockerCount": 1,
+    "compositeGapRiskScore": 39.6,
+    "owner": "Quality systems lead",
+    "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+  }
+]

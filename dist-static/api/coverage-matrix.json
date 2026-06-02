@@ -1,0 +1,91 @@
+[
+  {
+    "lane": "AI governance and agent readiness",
+    "track": "AI_GOVERNANCE",
+    "gapHeadline": "The governance story is coherent, but the packet still needs fresher operating proof.",
+    "gapSignal": "Exception-routing and rollback evidence is older than the claim language implies.",
+    "missingEvidence": "Fresh operating exports for exception handling, evaluation review, and rollback outcomes",
+    "evidenceMoves": [
+      "refresh control exports",
+      "attach evaluation packet",
+      "tighten board memo wording"
+    ],
+    "coverageScore": 70,
+    "freshnessDays": 26,
+    "ownerReadinessScore": 72
+  },
+  {
+    "lane": "Identity and access evidence",
+    "track": "IDENTITY",
+    "gapHeadline": "Identity is the healthiest packet, with only minor freshness cleanup left.",
+    "gapSignal": "Guest-review evidence is slightly older than ideal, but ownership is clear.",
+    "missingEvidence": "One refreshed guest-access evidence export",
+    "evidenceMoves": [
+      "refresh guest export",
+      "attach mobile posture packet"
+    ],
+    "coverageScore": 84,
+    "freshnessDays": 17,
+    "ownerReadinessScore": 86
+  },
+  {
+    "lane": "Revenue systems and reporting",
+    "track": "REVENUE_SYSTEMS",
+    "gapHeadline": "Revenue evidence needs a more direct proof chain before it can support board-grade claims.",
+    "gapSignal": "Release guardrails and attribution-safe rollback evidence are still sparse.",
+    "missingEvidence": "One end-to-end packet linking reporting controls to release-control proof",
+    "evidenceMoves": [
+      "attach release-control packet",
+      "publish rollback example",
+      "show reporting-control lineage"
+    ],
+    "coverageScore": 61,
+    "freshnessDays": 19,
+    "ownerReadinessScore": 58
+  },
+  {
+    "lane": "Procurement and trust center",
+    "track": "PROCUREMENT",
+    "gapHeadline": "This packet is structurally strong and mainly needs ongoing hygiene.",
+    "gapSignal": "Questionnaire reuse still benefits from a more explicit proof index.",
+    "missingEvidence": "Published proof-coverage index across the trust layer",
+    "evidenceMoves": [
+      "publish coverage index",
+      "cross-link trust assets",
+      "standardize answer-pack attachments"
+    ],
+    "coverageScore": 88,
+    "freshnessDays": 10,
+    "ownerReadinessScore": 84
+  },
+  {
+    "lane": "FinTech transaction controls",
+    "track": "FINTECH",
+    "gapHeadline": "The control-family packet exists, but the integrated claim is still ahead of the proof.",
+    "gapSignal": "Cross-surface evidence is thinner than the strength of the integrated-control narrative.",
+    "missingEvidence": "One end-to-end evidence packet connecting payments, KYC, treasury, and merchant review",
+    "evidenceMoves": [
+      "defer integrated language",
+      "publish one linked packet",
+      "restate as emerging control family"
+    ],
+    "coverageScore": 56,
+    "freshnessDays": 21,
+    "ownerReadinessScore": 60
+  },
+  {
+    "lane": "Biotech and diagnostics",
+    "track": "BIOTECH",
+    "gapHeadline": "The regulated packet is real, but still needs clearer provenance to feel durable.",
+    "gapSignal": "Evidence dates and repeatability notes are weaker than the strength of the current narrative.",
+    "missingEvidence": "Fresh provenance notes and one repeatable control-family packet",
+    "evidenceMoves": [
+      "refresh dates",
+      "tighten provenance notes",
+      "publish one repeatable packet"
+    ],
+    "coverageScore": 67,
+    "freshnessDays": 33,
+    "ownerReadinessScore": 64
+  }
+]

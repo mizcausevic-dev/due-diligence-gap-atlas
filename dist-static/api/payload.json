@@ -1,0 +1,925 @@
+{
+  "report": {
+    "generatedAt": "2026-06-02T00:00:00Z",
+    "summary": {
+      "items": 6,
+      "criticalGaps": 3,
+      "blockedPackets": 4,
+      "averageCoverage": 71,
+      "valueAtStakeMillions": 154,
+      "leadingMessage": "Diligence weakness is now cross-functional and should be closed as one board-visible workstream."
+    },
+    "items": [
+      {
+        "id": "ai-governance-packet",
+        "lane": "AI governance and agent readiness",
+        "track": "AI_GOVERNANCE",
+        "action": "REFRESH",
+        "packetName": "AI governance readiness pack",
+        "boardQuestion": "Which AI governance requests would stall the next diligence review first?",
+        "owner": "Chief AI Officer",
+        "audience": "Board risk committee",
+        "currentPosture": "The packet is usable, but evidence freshness and operating attachments are uneven.",
+        "requestedAssertion": "Agent governance, rollout, and exception control evidence is board-ready.",
+        "gapHeadline": "The governance story is coherent, but the packet still needs fresher operating proof.",
+        "gapSignal": "Exception-routing and rollback evidence is older than the claim language implies.",
+        "missingEvidence": "Fresh operating exports for exception handling, evaluation review, and rollback outcomes",
+        "evidenceMoves": [
+          "refresh control exports",
+          "attach evaluation packet",
+          "tighten board memo wording"
+        ],
+        "relatedSurfaces": [
+          "scorecard.kineticgain.com",
+          "memo.kineticgain.com",
+          "agents.kineticgain.com"
+        ],
+        "companyTags": [
+          "OpenAI",
+          "Anthropic",
+          "Microsoft"
+        ],
+        "coverageScore": 70,
+        "freshnessDays": 26,
+        "ownerReadinessScore": 72,
+        "requestCriticalityScore": 82,
+        "blockerCount": 1,
+        "valueAtStakeMillions": 32,
+        "headline": "AI governance is close, but still needs fresher operational proof.",
+        "narrative": "This is a packet refresh problem more than a strategy problem.",
+        "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the packet catches up.",
+        "coverageAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Coverage exists, but the packet still needs attachment depth before the next review."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Ownership exists, but closure will still depend on coordination follow-up."
+        },
+        "blockerAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "A blocker is forming and should be cleared before the next diligence ask."
+        },
+        "requestCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The request is too critical for the current packet weakness."
+        },
+        "compositeGapRiskScore": 37.2
+      },
+      {
+        "id": "identity-packet",
+        "lane": "Identity and access evidence",
+        "track": "IDENTITY",
+        "action": "CLOSE",
+        "packetName": "Identity assurance packet",
+        "boardQuestion": "Which identity diligence requests are closest to clean closure?",
+        "owner": "Chief Information Security Officer",
+        "audience": "Audit committee",
+        "currentPosture": "Identity evidence is strong and mostly current.",
+        "requestedAssertion": "Identity reviews, guest access, and mobile protection controls are audit-ready.",
+        "gapHeadline": "Identity is the healthiest packet, with only minor freshness cleanup left.",
+        "gapSignal": "Guest-review evidence is slightly older than ideal, but ownership is clear.",
+        "missingEvidence": "One refreshed guest-access evidence export",
+        "evidenceMoves": [
+          "refresh guest export",
+          "attach mobile posture packet"
+        ],
+        "relatedSurfaces": [
+          "guest.kineticgain.com",
+          "protect.kineticgain.com",
+          "certs.kineticgain.com"
+        ],
+        "companyTags": [
+          "Microsoft",
+          "Entra",
+          "Okta"
+        ],
+        "coverageScore": 84,
+        "freshnessDays": 17,
+        "ownerReadinessScore": 86,
+        "requestCriticalityScore": 68,
+        "blockerCount": 0,
+        "valueAtStakeMillions": 16,
+        "headline": "Identity can close quickly with a small packet refresh.",
+        "narrative": "This is the benchmark lane for a disciplined diligence packet.",
+        "nextMove": "Refresh the guest-access export and mark the packet ready for external reuse.",
+        "coverageAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Coverage is strong enough to support the current diligence packet."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Ownership is clear enough to close the packet quickly."
+        },
+        "blockerAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "No visible blocker is slowing packet closure."
+        },
+        "requestCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The request is too critical for the current packet weakness."
+        },
+        "compositeGapRiskScore": 23
+      },
+      {
+        "id": "revenue-packet",
+        "lane": "Revenue systems and reporting",
+        "track": "REVENUE_SYSTEMS",
+        "action": "ESCALATE",
+        "packetName": "Revenue control packet",
+        "boardQuestion": "Where will the board ask for harder evidence on revenue controls?",
+        "owner": "Chief Revenue Officer",
+        "audience": "Board finance committee",
+        "currentPosture": "Narrative strength is ahead of proof depth.",
+        "requestedAssertion": "Reporting, attribution, and release controls are connected enough for diligence.",
+        "gapHeadline": "Revenue evidence needs a more direct proof chain before it can support board-grade claims.",
+        "gapSignal": "Release guardrails and attribution-safe rollback evidence are still sparse.",
+        "missingEvidence": "One end-to-end packet linking reporting controls to release-control proof",
+        "evidenceMoves": [
+          "attach release-control packet",
+          "publish rollback example",
+          "show reporting-control lineage"
+        ],
+        "relatedSurfaces": [
+          "powerbi.kineticgain.com",
+          "yield.kineticgain.com",
+          "martech.kineticgain.com"
+        ],
+        "companyTags": [
+          "Power BI",
+          "Tableau",
+          "VWO"
+        ],
+        "coverageScore": 61,
+        "freshnessDays": 19,
+        "ownerReadinessScore": 58,
+        "requestCriticalityScore": 78,
+        "blockerCount": 2,
+        "valueAtStakeMillions": 28,
+        "headline": "Revenue diligence needs escalation because proof is still fragmented.",
+        "narrative": "The issue is connective evidence, not lack of surface area.",
+        "nextMove": "Escalate one owner to assemble the release-to-reporting proof chain.",
+        "coverageAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Coverage is too thin for the current diligence ask."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Ownership is too weak to move the packet cleanly."
+        },
+        "blockerAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Blocker load is already delaying the packet."
+        },
+        "requestCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The request is too critical for the current packet weakness."
+        },
+        "compositeGapRiskScore": 43.6
+      },
+      {
+        "id": "procurement-packet",
+        "lane": "Procurement and trust center",
+        "track": "PROCUREMENT",
+        "action": "CLOSE",
+        "packetName": "Procurement trust packet",
+        "boardQuestion": "Which diligence packet should anchor the rest of the external proof layer?",
+        "owner": "Chief Commercial Officer",
+        "audience": "Board growth committee",
+        "currentPosture": "Procurement is the strongest lane and can serve as the reference packet.",
+        "requestedAssertion": "Security questionnaire, trust-center, and proof reuse are buyer-ready.",
+        "gapHeadline": "This packet is structurally strong and mainly needs ongoing hygiene.",
+        "gapSignal": "Questionnaire reuse still benefits from a more explicit proof index.",
+        "missingEvidence": "Published proof-coverage index across the trust layer",
+        "evidenceMoves": [
+          "publish coverage index",
+          "cross-link trust assets",
+          "standardize answer-pack attachments"
+        ],
+        "relatedSurfaces": [
+          "procurement.kineticgain.com",
+          "questionnaire.kineticgain.com",
+          "trust.kineticgain.com"
+        ],
+        "companyTags": [
+          "Vanta",
+          "Drata",
+          "Google"
+        ],
+        "coverageScore": 88,
+        "freshnessDays": 10,
+        "ownerReadinessScore": 84,
+        "requestCriticalityScore": 62,
+        "blockerCount": 0,
+        "valueAtStakeMillions": 14,
+        "headline": "Procurement should anchor the diligence stack.",
+        "narrative": "Use this lane as the operating standard for packet reuse and evidence clarity.",
+        "nextMove": "Publish the proof-coverage index and lock this packet as the reference lane.",
+        "coverageAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Coverage is strong enough to support the current diligence packet."
+        },
+        "freshnessAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Evidence is fresh enough for external diligence."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "Ownership is clear enough to close the packet quickly."
+        },
+        "blockerAssessment": {
+          "severity": "LOW",
+          "ok": true,
+          "message": "No visible blocker is slowing packet closure."
+        },
+        "requestCriticalityAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "The request is becoming hard to satisfy with the current packet shape."
+        },
+        "compositeGapRiskScore": 20
+      },
+      {
+        "id": "fintech-packet",
+        "lane": "FinTech transaction controls",
+        "track": "FINTECH",
+        "action": "DEFER",
+        "packetName": "FinTech control-family packet",
+        "boardQuestion": "Which control families are still too early for integrated diligence language?",
+        "owner": "Chief Financial Officer",
+        "audience": "Investment committee",
+        "currentPosture": "The control-family story is promising but still early as a unified packet.",
+        "requestedAssertion": "Payments, KYC, treasury, and merchant review already form one diligence-grade control plane.",
+        "gapHeadline": "The control-family packet exists, but the integrated claim is still ahead of the proof.",
+        "gapSignal": "Cross-surface evidence is thinner than the strength of the integrated-control narrative.",
+        "missingEvidence": "One end-to-end evidence packet connecting payments, KYC, treasury, and merchant review",
+        "evidenceMoves": [
+          "defer integrated language",
+          "publish one linked packet",
+          "restate as emerging control family"
+        ],
+        "relatedSurfaces": [
+          "payments.kineticgain.com",
+          "kyc.kineticgain.com",
+          "treasury.kineticgain.com",
+          "merchant.kineticgain.com"
+        ],
+        "companyTags": [
+          "Stripe",
+          "Adyen",
+          "Plaid"
+        ],
+        "coverageScore": 56,
+        "freshnessDays": 21,
+        "ownerReadinessScore": 60,
+        "requestCriticalityScore": 80,
+        "blockerCount": 2,
+        "valueAtStakeMillions": 35,
+        "headline": "FinTech should be framed as an emerging family, not a closed diligence packet.",
+        "narrative": "The packet is valuable, but the integrated-control-plane claim should wait.",
+        "nextMove": "Defer the integrated assertion until one linked proof packet exists.",
+        "coverageAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Coverage is too thin for the current diligence ask."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Ownership is too weak to move the packet cleanly."
+        },
+        "blockerAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Blocker load is already delaying the packet."
+        },
+        "requestCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The request is too critical for the current packet weakness."
+        },
+        "compositeGapRiskScore": 45
+      },
+      {
+        "id": "biotech-packet",
+        "lane": "Biotech and diagnostics",
+        "track": "BIOTECH",
+        "action": "REFRESH",
+        "packetName": "Regulated controls packet",
+        "boardQuestion": "Which regulated-control packets need provenance reinforcement before reuse?",
+        "owner": "Quality systems lead",
+        "audience": "Board compliance committee",
+        "currentPosture": "The control stack is compelling, but the packet needs stronger provenance and fresher timestamps.",
+        "requestedAssertion": "GxP, specimen, CAPA, safety, and narrative review already form a reusable regulated diligence packet.",
+        "gapHeadline": "The regulated packet is real, but still needs clearer provenance to feel durable.",
+        "gapSignal": "Evidence dates and repeatability notes are weaker than the strength of the current narrative.",
+        "missingEvidence": "Fresh provenance notes and one repeatable control-family packet",
+        "evidenceMoves": [
+          "refresh dates",
+          "tighten provenance notes",
+          "publish one repeatable packet"
+        ],
+        "relatedSurfaces": [
+          "gxp.kineticgain.com",
+          "specimen.kineticgain.com",
+          "capa.kineticgain.com",
+          "safety.kineticgain.com"
+        ],
+        "companyTags": [
+          "Veeva",
+          "LabVantage",
+          "Thermo Fisher"
+        ],
+        "coverageScore": 67,
+        "freshnessDays": 33,
+        "ownerReadinessScore": 64,
+        "requestCriticalityScore": 76,
+        "blockerCount": 1,
+        "valueAtStakeMillions": 29,
+        "headline": "Biotech needs a provenance refresh before it reads like a durable packet.",
+        "narrative": "The surface is there; the diligence packet needs to look more repeatable and less recent.",
+        "nextMove": "Refresh provenance notes and publish one repeatable regulated packet.",
+        "coverageAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Coverage is too thin for the current diligence ask."
+        },
+        "freshnessAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "Evidence is aging and should be refreshed before reuse."
+        },
+        "ownerReadinessAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "Ownership is too weak to move the packet cleanly."
+        },
+        "blockerAssessment": {
+          "severity": "MEDIUM",
+          "ok": false,
+          "message": "A blocker is forming and should be cleared before the next diligence ask."
+        },
+        "requestCriticalityAssessment": {
+          "severity": "HIGH",
+          "ok": false,
+          "message": "The request is too critical for the current packet weakness."
+        },
+        "compositeGapRiskScore": 39.6
+      }
+    ]
+  },
+  "gapRegister": [
+    {
+      "lane": "AI governance and agent readiness",
+      "packetName": "AI governance readiness pack",
+      "action": "REFRESH",
+      "owner": "Chief AI Officer",
+      "audience": "Board risk committee",
+      "requestedAssertion": "Agent governance, rollout, and exception control evidence is board-ready.",
+      "coverageScore": 70,
+      "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the packet catches up."
+    },
+    {
+      "lane": "Identity and access evidence",
+      "packetName": "Identity assurance packet",
+      "action": "CLOSE",
+      "owner": "Chief Information Security Officer",
+      "audience": "Audit committee",
+      "requestedAssertion": "Identity reviews, guest access, and mobile protection controls are audit-ready.",
+      "coverageScore": 84,
+      "nextMove": "Refresh the guest-access export and mark the packet ready for external reuse."
+    },
+    {
+      "lane": "Revenue systems and reporting",
+      "packetName": "Revenue control packet",
+      "action": "ESCALATE",
+      "owner": "Chief Revenue Officer",
+      "audience": "Board finance committee",
+      "requestedAssertion": "Reporting, attribution, and release controls are connected enough for diligence.",
+      "coverageScore": 61,
+      "nextMove": "Escalate one owner to assemble the release-to-reporting proof chain."
+    },
+    {
+      "lane": "Procurement and trust center",
+      "packetName": "Procurement trust packet",
+      "action": "CLOSE",
+      "owner": "Chief Commercial Officer",
+      "audience": "Board growth committee",
+      "requestedAssertion": "Security questionnaire, trust-center, and proof reuse are buyer-ready.",
+      "coverageScore": 88,
+      "nextMove": "Publish the proof-coverage index and lock this packet as the reference lane."
+    },
+    {
+      "lane": "FinTech transaction controls",
+      "packetName": "FinTech control-family packet",
+      "action": "DEFER",
+      "owner": "Chief Financial Officer",
+      "audience": "Investment committee",
+      "requestedAssertion": "Payments, KYC, treasury, and merchant review already form one diligence-grade control plane.",
+      "coverageScore": 56,
+      "nextMove": "Defer the integrated assertion until one linked proof packet exists."
+    },
+    {
+      "lane": "Biotech and diagnostics",
+      "packetName": "Regulated controls packet",
+      "action": "REFRESH",
+      "owner": "Quality systems lead",
+      "audience": "Board compliance committee",
+      "requestedAssertion": "GxP, specimen, CAPA, safety, and narrative review already form a reusable regulated diligence packet.",
+      "coverageScore": 67,
+      "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+    }
+  ],
+  "coverageMatrix": [
+    {
+      "lane": "AI governance and agent readiness",
+      "track": "AI_GOVERNANCE",
+      "gapHeadline": "The governance story is coherent, but the packet still needs fresher operating proof.",
+      "gapSignal": "Exception-routing and rollback evidence is older than the claim language implies.",
+      "missingEvidence": "Fresh operating exports for exception handling, evaluation review, and rollback outcomes",
+      "evidenceMoves": [
+        "refresh control exports",
+        "attach evaluation packet",
+        "tighten board memo wording"
+      ],
+      "coverageScore": 70,
+      "freshnessDays": 26,
+      "ownerReadinessScore": 72
+    },
+    {
+      "lane": "Identity and access evidence",
+      "track": "IDENTITY",
+      "gapHeadline": "Identity is the healthiest packet, with only minor freshness cleanup left.",
+      "gapSignal": "Guest-review evidence is slightly older than ideal, but ownership is clear.",
+      "missingEvidence": "One refreshed guest-access evidence export",
+      "evidenceMoves": [
+        "refresh guest export",
+        "attach mobile posture packet"
+      ],
+      "coverageScore": 84,
+      "freshnessDays": 17,
+      "ownerReadinessScore": 86
+    },
+    {
+      "lane": "Revenue systems and reporting",
+      "track": "REVENUE_SYSTEMS",
+      "gapHeadline": "Revenue evidence needs a more direct proof chain before it can support board-grade claims.",
+      "gapSignal": "Release guardrails and attribution-safe rollback evidence are still sparse.",
+      "missingEvidence": "One end-to-end packet linking reporting controls to release-control proof",
+      "evidenceMoves": [
+        "attach release-control packet",
+        "publish rollback example",
+        "show reporting-control lineage"
+      ],
+      "coverageScore": 61,
+      "freshnessDays": 19,
+      "ownerReadinessScore": 58
+    },
+    {
+      "lane": "Procurement and trust center",
+      "track": "PROCUREMENT",
+      "gapHeadline": "This packet is structurally strong and mainly needs ongoing hygiene.",
+      "gapSignal": "Questionnaire reuse still benefits from a more explicit proof index.",
+      "missingEvidence": "Published proof-coverage index across the trust layer",
+      "evidenceMoves": [
+        "publish coverage index",
+        "cross-link trust assets",
+        "standardize answer-pack attachments"
+      ],
+      "coverageScore": 88,
+      "freshnessDays": 10,
+      "ownerReadinessScore": 84
+    },
+    {
+      "lane": "FinTech transaction controls",
+      "track": "FINTECH",
+      "gapHeadline": "The control-family packet exists, but the integrated claim is still ahead of the proof.",
+      "gapSignal": "Cross-surface evidence is thinner than the strength of the integrated-control narrative.",
+      "missingEvidence": "One end-to-end evidence packet connecting payments, KYC, treasury, and merchant review",
+      "evidenceMoves": [
+        "defer integrated language",
+        "publish one linked packet",
+        "restate as emerging control family"
+      ],
+      "coverageScore": 56,
+      "freshnessDays": 21,
+      "ownerReadinessScore": 60
+    },
+    {
+      "lane": "Biotech and diagnostics",
+      "track": "BIOTECH",
+      "gapHeadline": "The regulated packet is real, but still needs clearer provenance to feel durable.",
+      "gapSignal": "Evidence dates and repeatability notes are weaker than the strength of the current narrative.",
+      "missingEvidence": "Fresh provenance notes and one repeatable control-family packet",
+      "evidenceMoves": [
+        "refresh dates",
+        "tighten provenance notes",
+        "publish one repeatable packet"
+      ],
+      "coverageScore": 67,
+      "freshnessDays": 33,
+      "ownerReadinessScore": 64
+    }
+  ],
+  "closePlan": [
+    {
+      "lane": "AI governance and agent readiness",
+      "action": "REFRESH",
+      "blockerCount": 1,
+      "compositeGapRiskScore": 37.2,
+      "owner": "Chief AI Officer",
+      "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the packet catches up."
+    },
+    {
+      "lane": "Identity and access evidence",
+      "action": "CLOSE",
+      "blockerCount": 0,
+      "compositeGapRiskScore": 23,
+      "owner": "Chief Information Security Officer",
+      "nextMove": "Refresh the guest-access export and mark the packet ready for external reuse."
+    },
+    {
+      "lane": "Revenue systems and reporting",
+      "action": "ESCALATE",
+      "blockerCount": 2,
+      "compositeGapRiskScore": 43.6,
+      "owner": "Chief Revenue Officer",
+      "nextMove": "Escalate one owner to assemble the release-to-reporting proof chain."
+    },
+    {
+      "lane": "Procurement and trust center",
+      "action": "CLOSE",
+      "blockerCount": 0,
+      "compositeGapRiskScore": 20,
+      "owner": "Chief Commercial Officer",
+      "nextMove": "Publish the proof-coverage index and lock this packet as the reference lane."
+    },
+    {
+      "lane": "FinTech transaction controls",
+      "action": "DEFER",
+      "blockerCount": 2,
+      "compositeGapRiskScore": 45,
+      "owner": "Chief Financial Officer",
+      "nextMove": "Defer the integrated assertion until one linked proof packet exists."
+    },
+    {
+      "lane": "Biotech and diagnostics",
+      "action": "REFRESH",
+      "blockerCount": 1,
+      "compositeGapRiskScore": 39.6,
+      "owner": "Quality systems lead",
+      "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+    }
+  ],
+  "riskMap": [
+    {
+      "lane": "AI governance and agent readiness",
+      "track": "AI_GOVERNANCE",
+      "compositeGapRiskScore": 37.2,
+      "valueAtStakeMillions": 32,
+      "requestCriticalityScore": 82,
+      "companyTags": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft"
+      ]
+    },
+    {
+      "lane": "Identity and access evidence",
+      "track": "IDENTITY",
+      "compositeGapRiskScore": 23,
+      "valueAtStakeMillions": 16,
+      "requestCriticalityScore": 68,
+      "companyTags": [
+        "Microsoft",
+        "Entra",
+        "Okta"
+      ]
+    },
+    {
+      "lane": "Revenue systems and reporting",
+      "track": "REVENUE_SYSTEMS",
+      "compositeGapRiskScore": 43.6,
+      "valueAtStakeMillions": 28,
+      "requestCriticalityScore": 78,
+      "companyTags": [
+        "Power BI",
+        "Tableau",
+        "VWO"
+      ]
+    },
+    {
+      "lane": "Procurement and trust center",
+      "track": "PROCUREMENT",
+      "compositeGapRiskScore": 20,
+      "valueAtStakeMillions": 14,
+      "requestCriticalityScore": 62,
+      "companyTags": [
+        "Vanta",
+        "Drata",
+        "Google"
+      ]
+    },
+    {
+      "lane": "FinTech transaction controls",
+      "track": "FINTECH",
+      "compositeGapRiskScore": 45,
+      "valueAtStakeMillions": 35,
+      "requestCriticalityScore": 80,
+      "companyTags": [
+        "Stripe",
+        "Adyen",
+        "Plaid"
+      ]
+    },
+    {
+      "lane": "Biotech and diagnostics",
+      "track": "BIOTECH",
+      "compositeGapRiskScore": 39.6,
+      "valueAtStakeMillions": 29,
+      "requestCriticalityScore": 76,
+      "companyTags": [
+        "Veeva",
+        "LabVantage",
+        "Thermo Fisher"
+      ]
+    }
+  ],
+  "verification": [
+    "Synthetic diligence packet data only - no live board, investor, customer, or partner materials are included.",
+    "Scores are modeled to show how Kinetic Gain can compare packet coverage, freshness, owner readiness, blocker load, and request criticality in one board-readable surface.",
+    "All routes are read-only and demonstrate diligence-gap analysis, not production legal, financial, or compliance advice."
+  ],
+  "sample": [
+    {
+      "id": "ai-governance-packet",
+      "lane": "AI governance and agent readiness",
+      "track": "AI_GOVERNANCE",
+      "action": "REFRESH",
+      "packetName": "AI governance readiness pack",
+      "boardQuestion": "Which AI governance requests would stall the next diligence review first?",
+      "owner": "Chief AI Officer",
+      "audience": "Board risk committee",
+      "currentPosture": "The packet is usable, but evidence freshness and operating attachments are uneven.",
+      "requestedAssertion": "Agent governance, rollout, and exception control evidence is board-ready.",
+      "gapHeadline": "The governance story is coherent, but the packet still needs fresher operating proof.",
+      "gapSignal": "Exception-routing and rollback evidence is older than the claim language implies.",
+      "missingEvidence": "Fresh operating exports for exception handling, evaluation review, and rollback outcomes",
+      "evidenceMoves": [
+        "refresh control exports",
+        "attach evaluation packet",
+        "tighten board memo wording"
+      ],
+      "relatedSurfaces": [
+        "scorecard.kineticgain.com",
+        "memo.kineticgain.com",
+        "agents.kineticgain.com"
+      ],
+      "companyTags": [
+        "OpenAI",
+        "Anthropic",
+        "Microsoft"
+      ],
+      "coverageScore": 70,
+      "freshnessDays": 26,
+      "ownerReadinessScore": 72,
+      "requestCriticalityScore": 82,
+      "blockerCount": 1,
+      "valueAtStakeMillions": 32,
+      "headline": "AI governance is close, but still needs fresher operational proof.",
+      "narrative": "This is a packet refresh problem more than a strategy problem.",
+      "nextMove": "Refresh the operating evidence and narrow the highest-confidence AI claim until the packet catches up."
+    },
+    {
+      "id": "identity-packet",
+      "lane": "Identity and access evidence",
+      "track": "IDENTITY",
+      "action": "CLOSE",
+      "packetName": "Identity assurance packet",
+      "boardQuestion": "Which identity diligence requests are closest to clean closure?",
+      "owner": "Chief Information Security Officer",
+      "audience": "Audit committee",
+      "currentPosture": "Identity evidence is strong and mostly current.",
+      "requestedAssertion": "Identity reviews, guest access, and mobile protection controls are audit-ready.",
+      "gapHeadline": "Identity is the healthiest packet, with only minor freshness cleanup left.",
+      "gapSignal": "Guest-review evidence is slightly older than ideal, but ownership is clear.",
+      "missingEvidence": "One refreshed guest-access evidence export",
+      "evidenceMoves": [
+        "refresh guest export",
+        "attach mobile posture packet"
+      ],
+      "relatedSurfaces": [
+        "guest.kineticgain.com",
+        "protect.kineticgain.com",
+        "certs.kineticgain.com"
+      ],
+      "companyTags": [
+        "Microsoft",
+        "Entra",
+        "Okta"
+      ],
+      "coverageScore": 84,
+      "freshnessDays": 17,
+      "ownerReadinessScore": 86,
+      "requestCriticalityScore": 68,
+      "blockerCount": 0,
+      "valueAtStakeMillions": 16,
+      "headline": "Identity can close quickly with a small packet refresh.",
+      "narrative": "This is the benchmark lane for a disciplined diligence packet.",
+      "nextMove": "Refresh the guest-access export and mark the packet ready for external reuse."
+    },
+    {
+      "id": "revenue-packet",
+      "lane": "Revenue systems and reporting",
+      "track": "REVENUE_SYSTEMS",
+      "action": "ESCALATE",
+      "packetName": "Revenue control packet",
+      "boardQuestion": "Where will the board ask for harder evidence on revenue controls?",
+      "owner": "Chief Revenue Officer",
+      "audience": "Board finance committee",
+      "currentPosture": "Narrative strength is ahead of proof depth.",
+      "requestedAssertion": "Reporting, attribution, and release controls are connected enough for diligence.",
+      "gapHeadline": "Revenue evidence needs a more direct proof chain before it can support board-grade claims.",
+      "gapSignal": "Release guardrails and attribution-safe rollback evidence are still sparse.",
+      "missingEvidence": "One end-to-end packet linking reporting controls to release-control proof",
+      "evidenceMoves": [
+        "attach release-control packet",
+        "publish rollback example",
+        "show reporting-control lineage"
+      ],
+      "relatedSurfaces": [
+        "powerbi.kineticgain.com",
+        "yield.kineticgain.com",
+        "martech.kineticgain.com"
+      ],
+      "companyTags": [
+        "Power BI",
+        "Tableau",
+        "VWO"
+      ],
+      "coverageScore": 61,
+      "freshnessDays": 19,
+      "ownerReadinessScore": 58,
+      "requestCriticalityScore": 78,
+      "blockerCount": 2,
+      "valueAtStakeMillions": 28,
+      "headline": "Revenue diligence needs escalation because proof is still fragmented.",
+      "narrative": "The issue is connective evidence, not lack of surface area.",
+      "nextMove": "Escalate one owner to assemble the release-to-reporting proof chain."
+    },
+    {
+      "id": "procurement-packet",
+      "lane": "Procurement and trust center",
+      "track": "PROCUREMENT",
+      "action": "CLOSE",
+      "packetName": "Procurement trust packet",
+      "boardQuestion": "Which diligence packet should anchor the rest of the external proof layer?",
+      "owner": "Chief Commercial Officer",
+      "audience": "Board growth committee",
+      "currentPosture": "Procurement is the strongest lane and can serve as the reference packet.",
+      "requestedAssertion": "Security questionnaire, trust-center, and proof reuse are buyer-ready.",
+      "gapHeadline": "This packet is structurally strong and mainly needs ongoing hygiene.",
+      "gapSignal": "Questionnaire reuse still benefits from a more explicit proof index.",
+      "missingEvidence": "Published proof-coverage index across the trust layer",
+      "evidenceMoves": [
+        "publish coverage index",
+        "cross-link trust assets",
+        "standardize answer-pack attachments"
+      ],
+      "relatedSurfaces": [
+        "procurement.kineticgain.com",
+        "questionnaire.kineticgain.com",
+        "trust.kineticgain.com"
+      ],
+      "companyTags": [
+        "Vanta",
+        "Drata",
+        "Google"
+      ],
+      "coverageScore": 88,
+      "freshnessDays": 10,
+      "ownerReadinessScore": 84,
+      "requestCriticalityScore": 62,
+      "blockerCount": 0,
+      "valueAtStakeMillions": 14,
+      "headline": "Procurement should anchor the diligence stack.",
+      "narrative": "Use this lane as the operating standard for packet reuse and evidence clarity.",
+      "nextMove": "Publish the proof-coverage index and lock this packet as the reference lane."
+    },
+    {
+      "id": "fintech-packet",
+      "lane": "FinTech transaction controls",
+      "track": "FINTECH",
+      "action": "DEFER",
+      "packetName": "FinTech control-family packet",
+      "boardQuestion": "Which control families are still too early for integrated diligence language?",
+      "owner": "Chief Financial Officer",
+      "audience": "Investment committee",
+      "currentPosture": "The control-family story is promising but still early as a unified packet.",
+      "requestedAssertion": "Payments, KYC, treasury, and merchant review already form one diligence-grade control plane.",
+      "gapHeadline": "The control-family packet exists, but the integrated claim is still ahead of the proof.",
+      "gapSignal": "Cross-surface evidence is thinner than the strength of the integrated-control narrative.",
+      "missingEvidence": "One end-to-end evidence packet connecting payments, KYC, treasury, and merchant review",
+      "evidenceMoves": [
+        "defer integrated language",
+        "publish one linked packet",
+        "restate as emerging control family"
+      ],
+      "relatedSurfaces": [
+        "payments.kineticgain.com",
+        "kyc.kineticgain.com",
+        "treasury.kineticgain.com",
+        "merchant.kineticgain.com"
+      ],
+      "companyTags": [
+        "Stripe",
+        "Adyen",
+        "Plaid"
+      ],
+      "coverageScore": 56,
+      "freshnessDays": 21,
+      "ownerReadinessScore": 60,
+      "requestCriticalityScore": 80,
+      "blockerCount": 2,
+      "valueAtStakeMillions": 35,
+      "headline": "FinTech should be framed as an emerging family, not a closed diligence packet.",
+      "narrative": "The packet is valuable, but the integrated-control-plane claim should wait.",
+      "nextMove": "Defer the integrated assertion until one linked proof packet exists."
+    },
+    {
+      "id": "biotech-packet",
+      "lane": "Biotech and diagnostics",
+      "track": "BIOTECH",
+      "action": "REFRESH",
+      "packetName": "Regulated controls packet",
+      "boardQuestion": "Which regulated-control packets need provenance reinforcement before reuse?",
+      "owner": "Quality systems lead",
+      "audience": "Board compliance committee",
+      "currentPosture": "The control stack is compelling, but the packet needs stronger provenance and fresher timestamps.",
+      "requestedAssertion": "GxP, specimen, CAPA, safety, and narrative review already form a reusable regulated diligence packet.",
+      "gapHeadline": "The regulated packet is real, but still needs clearer provenance to feel durable.",
+      "gapSignal": "Evidence dates and repeatability notes are weaker than the strength of the current narrative.",
+      "missingEvidence": "Fresh provenance notes and one repeatable control-family packet",
+      "evidenceMoves": [
+        "refresh dates",
+        "tighten provenance notes",
+        "publish one repeatable packet"
+      ],
+      "relatedSurfaces": [
+        "gxp.kineticgain.com",
+        "specimen.kineticgain.com",
+        "capa.kineticgain.com",
+        "safety.kineticgain.com"
+      ],
+      "companyTags": [
+        "Veeva",
+        "LabVantage",
+        "Thermo Fisher"
+      ],
+      "coverageScore": 67,
+      "freshnessDays": 33,
+      "ownerReadinessScore": 64,
+      "requestCriticalityScore": 76,
+      "blockerCount": 1,
+      "valueAtStakeMillions": 29,
+      "headline": "Biotech needs a provenance refresh before it reads like a durable packet.",
+      "narrative": "The surface is there; the diligence packet needs to look more repeatable and less recent.",
+      "nextMove": "Refresh provenance notes and publish one repeatable regulated packet."
+    }
+  ]
+}
