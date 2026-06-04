@@ -2,7 +2,7 @@
 
 Board-ready diligence surface for showing where investor, buyer, and partner packets are incomplete, which workstreams are blocking readiness, and what should be closed before the next external review.
 
-- Live: `http://gaps.kineticgain.com/`
+- Live: `https://gaps.kineticgain.com/`
 - Repo: `mizcausevic-dev/due-diligence-gap-atlas`
 
 ## Why this matters
