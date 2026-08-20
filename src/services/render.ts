@@ -40,31 +40,35 @@ function shell(title: string, path: string, body: string, description: string) {
     <style>
       :root {
         color-scheme: dark;
-        --bg: #07111d;
-        --panel: #0d1a2b;
-        --border: rgba(103, 224, 190, 0.22);
-        --text: #edf2ff;
-        --muted: #9fb0cf;
-        --accent: #67e0be;
-        --accent-2: #7dc4ff;
+        /* Kinetic Gain BERT dark-cyan. Shared with kineticgain.com and suite.kineticgain.com. */
+        --bg: #0B0C10;
+        --panel: #1F2833;
+        --panel-2: #161D26;
+        --border: #2B3A46;
+        --text: #C5C6C7;
+        --head: #EAF6F5;
+        --muted: #99A3AD;
+        --faint: #8C98A2;
+        --accent: #66FCF1;
+        --accent-2: #45A29E;
       }
       * { box-sizing: border-box; }
       body {
         margin: 0;
         font-family: "Segoe UI", system-ui, sans-serif;
         background:
-          radial-gradient(circle at top left, rgba(125, 196, 255, 0.12), transparent 30%),
-          linear-gradient(180deg, #050c16 0%, var(--bg) 100%);
+          radial-gradient(circle at top left, rgba(69, 162, 158, 0.12), transparent 30%),
+          linear-gradient(180deg, var(--panel-2) 0%, var(--bg) 100%);
         color: var(--text);
       }
-      a { color: var(--accent-2); text-decoration: none; }
+      a { color: var(--accent); text-decoration: none; }
       .wrap { max-width: 1180px; margin: 0 auto; padding: 32px 24px 64px; }
       .hero, .section {
-        background: linear-gradient(180deg, rgba(14, 28, 45, 0.95), rgba(10, 19, 33, 0.98));
+        background: linear-gradient(180deg, var(--panel), var(--panel-2));
         border: 1px solid var(--border);
         border-radius: 28px;
         padding: 28px;
-        box-shadow: 0 18px 60px rgba(2, 7, 16, 0.35);
+        box-shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
       }
       .hero { margin-bottom: 24px; }
       .eyebrow {
@@ -72,29 +76,29 @@ function shell(title: string, path: string, body: string, description: string) {
         padding: 10px 16px;
         border-radius: 999px;
         border: 1px solid var(--border);
-        background: rgba(103, 224, 190, 0.08);
+        background: rgba(102, 252, 241, 0.08);
         color: var(--accent);
         font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 0.28em;
       }
-      h1, h2 { margin: 18px 0 12px; font-family: Georgia, serif; line-height: 0.95; }
+      h1, h2 { margin: 18px 0 12px; color: var(--head); line-height: 0.95; }
       h1 { font-size: clamp(56px, 8vw, 92px); max-width: 980px; }
       h2 { font-size: clamp(36px, 4vw, 54px); }
       .lede { color: var(--muted); font-size: 20px; line-height: 1.6; max-width: 920px; }
       .nav { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 22px; }
       .nav a {
         padding: 10px 14px;
-        border: 1px solid rgba(125, 196, 255, 0.18);
+        border: 1px solid var(--accent-2);
         border-radius: 999px;
         color: var(--muted);
       }
-      .nav a.active { color: var(--text); border-color: var(--accent); background: rgba(103, 224, 190, 0.08); }
+      .nav a.active { color: var(--text); border-color: var(--accent); background: rgba(102, 252, 241, 0.08); }
       .metrics, .grid { display: grid; gap: 18px; }
       .metrics { grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); margin-top: 26px; }
       .metric, .card, .table-wrap {
-        background: rgba(16, 32, 50, 0.76);
-        border: 1px solid rgba(125, 196, 255, 0.12);
+        background: var(--panel-2);
+        border: 1px solid var(--border);
         border-radius: 22px;
         padding: 18px;
       }
@@ -103,25 +107,25 @@ function shell(title: string, path: string, body: string, description: string) {
       .metric-copy { margin-top: 10px; color: var(--muted); line-height: 1.5; }
       .section { margin-top: 24px; }
       .grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-      .card h3 { margin: 12px 0 10px; font-size: 30px; line-height: 1.05; }
+      .card h3 { margin: 12px 0 10px; color: var(--head); font-size: 30px; line-height: 1.05; }
       .card p, li { color: var(--muted); line-height: 1.6; }
       .table-wrap { overflow-x: auto; }
       table { width: 100%; border-collapse: collapse; }
-      th, td { text-align: left; padding: 12px; border-bottom: 1px solid rgba(125, 196, 255, 0.12); vertical-align: top; }
+      th, td { text-align: left; padding: 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
       th { color: var(--accent); font-size: 12px; text-transform: uppercase; letter-spacing: 0.18em; }
       ul { padding-left: 20px; }
       pre {
         white-space: pre-wrap;
         overflow-wrap: anywhere;
         color: var(--muted);
-        background: rgba(7, 17, 29, 0.75);
-        border: 1px solid rgba(125, 196, 255, 0.12);
+        background: var(--panel-2);
+        border: 1px solid var(--border);
         border-radius: 18px;
         padding: 18px;
       }
       .footer {
         margin-top: 24px;
-        color: var(--muted);
+        color: var(--faint);
         font-size: 14px;
         display: flex;
         gap: 18px;

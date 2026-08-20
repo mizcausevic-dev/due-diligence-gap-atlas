@@ -19,15 +19,16 @@ function New-ScenarioImage {
   $bitmap = New-Object System.Drawing.Bitmap $width, $height
   $graphics = [System.Drawing.Graphics]::FromImage($bitmap)
   $graphics.SmoothingMode = [System.Drawing.Drawing2D.SmoothingMode]::AntiAlias
-  $graphics.Clear([System.Drawing.Color]::FromArgb(7, 17, 29))
+  # Kinetic Gain BERT dark-cyan, same values as the :root block in src/services/render.ts.
+  $graphics.Clear([System.Drawing.Color]::FromArgb(11, 12, 16))          # --bg      #0B0C10
 
-  $bgBrush = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(13, 26, 43))
-  $panelPen = New-Object System.Drawing.Pen ([System.Drawing.Color]::FromArgb(103, 224, 190), 2)
-  $titleBrush = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(237, 242, 255))
-  $bodyBrush = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(159, 176, 207))
-  $accentBrush = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(103, 224, 190))
+  $bgBrush = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(31, 40, 51))       # --panel   #1F2833
+  $panelPen = New-Object System.Drawing.Pen ([System.Drawing.Color]::FromArgb(102, 252, 241), 2)       # --accent  #66FCF1
+  $titleBrush = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(234, 246, 245)) # --head    #EAF6F5
+  $bodyBrush = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(153, 163, 173))  # --muted   #99A3AD
+  $accentBrush = New-Object System.Drawing.SolidBrush ([System.Drawing.Color]::FromArgb(102, 252, 241))# --accent  #66FCF1
 
-  $fontTitle = New-Object System.Drawing.Font("Georgia", 40, [System.Drawing.FontStyle]::Bold)
+  $fontTitle = New-Object System.Drawing.Font("Segoe UI", 40, [System.Drawing.FontStyle]::Bold)
   $fontSub = New-Object System.Drawing.Font("Segoe UI", 16, [System.Drawing.FontStyle]::Regular)
   $fontBody = New-Object System.Drawing.Font("Segoe UI", 26, [System.Drawing.FontStyle]::Regular)
   $fontFooter = New-Object System.Drawing.Font("Segoe UI", 18, [System.Drawing.FontStyle]::Regular)
