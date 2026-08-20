@@ -33,9 +33,9 @@ for (const [, [filename, html]] of routes) {
 
 copyFileSync(path.join(root, "favicon.svg"), path.join(publicDir, "favicon.svg"));
 
-writeFileSync(path.join(root, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://gaps.kineticgain.com/sitemap.xml\n");
+writeFileSync(path.join(publicDir, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://gaps.kineticgain.com/sitemap.xml\n");
 writeFileSync(
-  path.join(root, "sitemap.xml"),
+  path.join(publicDir, "sitemap.xml"),
   `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://gaps.kineticgain.com/</loc></url><url><loc>https://gaps.kineticgain.com/gap-register/</loc></url><url><loc>https://gaps.kineticgain.com/coverage-matrix/</loc></url><url><loc>https://gaps.kineticgain.com/close-plan/</loc></url><url><loc>https://gaps.kineticgain.com/verification/</loc></url><url><loc>https://gaps.kineticgain.com/docs/</loc></url></urlset>`
 );
 
