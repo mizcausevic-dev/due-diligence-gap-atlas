@@ -1,4 +1,4 @@
-import { mkdirSync, rmSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -30,6 +30,8 @@ for (const [, [filename, html]] of routes) {
   mkdirSync(path.dirname(target), { recursive: true });
   writeFileSync(target, html);
 }
+
+copyFileSync(path.join(root, "favicon.svg"), path.join(publicDir, "favicon.svg"));
 
 writeFileSync(path.join(root, "robots.txt"), "User-agent: *\nAllow: /\nSitemap: https://gaps.kineticgain.com/sitemap.xml\n");
 writeFileSync(

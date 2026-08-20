@@ -15,6 +15,28 @@ function shell(title: string, path: string, body: string, description: string) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${escapeHtml(title)} · Kinetic Gain</title>
     <meta name="description" content="${escapeHtml(description)}" />
+    <link rel="icon" href="/favicon.svg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Due-Diligence Atlas",
+        "description": "Board-ready executive intelligence surface for showing where diligence packets are incomplete, which workstreams are blocking readiness, how evidence coverage varies by buyer question, and what should be closed before the next investor or buyer review.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
+        "url": "https://gaps.kineticgain.com/",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Kinetic Gain LLC",
+          "url": "https://kineticgain.com/"
+        },
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "Kinetic Gain",
+          "url": "https://kineticgain.com/"
+        }
+      }
+    </script>
     <style>
       :root {
         color-scheme: dark;
